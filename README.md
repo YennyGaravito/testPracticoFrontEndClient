@@ -2,14 +2,16 @@
 Repositorio cliente del test practico frontend para Mercado Libre Mayo de 2022
 
 ## Stack Tecnologico Usado
-React
-HTML
-SASS
-NodeJs + Express
+* React
+* HTML
+* SASS
 
 ## Generalidades del projecto
+Ruta de codigo Source:
+https://github.com/YennyGaravito/testPracticoFrontEndClient/tree/main/test-practico-yennyg
 
 ## Descripcion desarrollo
+Se realiza una funcionalidad de busqueda basica
 
 ### Vistas:
 
