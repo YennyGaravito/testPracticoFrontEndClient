@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+Repositorio cliente del test practico frontend para Mercado Libre Mayo de 2022
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Stack Tecnologico Usado
+React
+HTML
+SASS
+NodeJs + Express
 
-## Available Scripts
+## Generalidades del projecto
 
-In the project directory, you can run:
+## Descripcion desarrollo
 
-### `npm start`
+### Vistas:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Caja de Búsqueda( “/” ) : Si se digita la palabra el api navega a los resultados de la busqueda mostrando los 4 primeros resultados. Si da click en el elemento del listado de resultados, la api navega directamente al detalle del producto.
+* Resultados de la búsqueda (“/items/search/:search” ) : Busca en el endpoint de mercado libre el valor que es digitado en la URL. En la vista se presenta un listado con los primeros 4 productos que se recibieron en el resultado.
+* Detalle del producto (“/items/:id”): Busca en el endpoint de mercado libre el id del item digitado por URL. En la vista se presenta el detalle del producto correspondiente al ID.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+La vista principal es Caja de Busqueda.
+Las otras dos vistas son navegables independiente o por continuidad de acciones de la api.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Notas Adicionales:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Primer desarrollo en react. He trabajo solo con Angular en typescript y es la primera vez que realizo un proyecto en React.
+* Por tiempo quedaron pendientes algunos detalles, sin embargo se dio prioridad a la funcionalidad y manejo de vistas. 
+* El diseño en general hace uso de clases tipo BEM, una clase por cada elemento dentro de la pagina. Sin embargo por tiempo no se pulieron los estilos.
+* El manejo de objetos de respuesta y formato de Data, por ser una libreria que nunca habia usado, quedo pendiente la forma de retornarlo hacia un llamado; de todas formas, se incluyo en un archivo independiente para interaccion con la api de manera funcional.
+* Gracias por Leer y siempre hay cosas por mejorar.
