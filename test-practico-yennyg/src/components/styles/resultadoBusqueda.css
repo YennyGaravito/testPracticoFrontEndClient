@@ -1,0 +1,79 @@
+
+
+.busq-resultado {
+    background-color: #dcdcdc;
+}
+
+nav {
+    align-self: self-start;
+}
+
+.breadcrumb {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.breadcrumb__item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    float: left;
+}
+
+.busq-resultado-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.busq-resultado-list {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.busq-list-item {
+    width: 80%;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    margin-left: 5%;
+    border-bottom: solid 1px rgb(0 0 0 / 20%);
+}
+
+.busq-list-item__img  {
+    width: 120px;
+    display: block;
+    margin: 10px;
+    padding: 20px;
+}
+
+.busq-list-item__caract {
+    width: 60%;
+    display: block;
+    margin: 10px;
+    padding: 20px;
+}
+
+.busq-list-item__caract-price {
+    font-size: 20px;
+    font-weight: bold;
+    height: 20px;
+}
+
+.busq-list-item__ciudad {
+    width: 10%;
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}

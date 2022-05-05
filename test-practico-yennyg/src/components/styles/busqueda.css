@@ -1,0 +1,62 @@
+.busq-bar {
+    width: 100%;
+    height: 50px;
+    background-color: #fff159;
+    border: 0;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.busq-container {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+}
+
+.busq-logo {
+    height: 25px;
+    margin: 0 30px 0 15%;
+    display: inline-flex;
+}
+
+.busq-form  {
+    width: 70%;
+    display: inline-flex;
+}
+
+.busq-input  {
+    position: relative;
+    width: 90%;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    height: 18px;
+    display: inline-flex;
+    padding: 7px 60px 9px 15px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 0 #CCC
+}
+
+.busq-input:focus {
+    background-color: #fff;
+    border: 0 #CCC
+}
+
+.busq-search-btn {
+    background-image: none;
+    height: 35px;
+    width: 35px;
+    background-color: #CCC;
+    padding-top: 2px;
+    cursor: pointer;
+    content: '\EA27';
+    border: 0 rgba(0,0,0,.2);
+}
+
+.busq-search-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+}
