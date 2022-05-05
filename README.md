@@ -12,7 +12,14 @@ https://github.com/YennyGaravito/testPracticoFrontEndClient/tree/main/test-pract
 
 ## Descripcion desarrollo
 Se realiza una funcionalidad de busqueda basica
-
+Carpetas usadas:
+* /src/components/: para incluir todos los archivos de Funcionalidades.
+* /src/components/api: aqui se ubican los componentes que hacen llamados externos a Endpoint de servicios.
+* /src/components/busqueda: Componente para render de HTML/CSS de la caja de busqueda
+* /src/components/resultado: Componente para render de HTML/CSS de los resultados de busqueda
+* /src/components/detalle: Componente para render de HTML/CSS del detalle segun un ID de item dado
+* /src/components/styles: Se incluyen los archivos .css de todos los componentes.
+* /src/img: Recursos locales, solo para imagenes
 ### Vistas:
 
 * Caja de Búsqueda( “/” ) : Si se digita la palabra el api navega a los resultados de la busqueda mostrando los 4 primeros resultados. Si da click en el elemento del listado de resultados, la api navega directamente al detalle del producto.
